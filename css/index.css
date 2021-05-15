@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1920px;
+  height: 3000px;
+  margin: 0 auto;
+}
+.wrap {
+  background: url(../images/bg.jpg);
+}
+.bgBox {
+  position: relative;
+}
+.bgBox div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1920px;
+  height: 1280px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.bgBox .bgBox-main {
+  background-image: url(../images/bg-main.jpg);
+}
+.bgBox .bgBox-card1 {
+  background-image: url(../images/bg_card1.png);
+}
+.bgBox .bgBox-card2 {
+  background-image: url(../images/bg_card2.png);
+}
+.bgBox .bgBox-card3 {
+  background-image: url(../images/bg_card3.png);
+}
+.bgBox .bgBox-card4 {
+  background-image: url(../images/bg_card4.png);
+}
+.bgBox .bgBox-card5 {
+  background-image: url(../images/bg_card5.png);
+}
+.bgBox .bgBox-card6 {
+  background-image: url(../images/bg_card6.png);
+}

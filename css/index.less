@@ -1,0 +1,53 @@
+// 清除元素内外边距 + 开启C3盒子模型
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  // 限制页面宽度
+  width: 1920px;
+  height: 3000px;
+  //   页面水平居中
+  margin: 0 auto;
+}
+
+// 版心
+.wrap {
+  background: url(../images/bg.jpg);
+}
+
+// 背景图部分
+.bgBox {
+  position: relative;
+  div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 1280px;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .bgBox-main {
+    background-image: url(../images/bg-main.jpg);
+  }
+  .bgBox-card1 {
+    background-image: url(../images/bg_card1.png);
+  }
+  .bgBox-card2 {
+    background-image: url(../images/bg_card2.png);
+  }
+  .bgBox-card3 {
+    background-image: url(../images/bg_card3.png);
+  }
+  .bgBox-card4 {
+    background-image: url(../images/bg_card4.png);
+  }
+  .bgBox-card5 {
+    background-image: url(../images/bg_card5.png);
+  }
+  .bgBox-card6 {
+    background-image: url(../images/bg_card6.png);
+  }
+}
